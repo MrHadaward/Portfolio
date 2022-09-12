@@ -1,0 +1,40 @@
+body{
+    background-image: url("https://images.alphacoders.com/113/1138740.png");
+    background-size: cover;
+}
+
+.card{
+    padding: 8px;
+    margin: 16px auto;
+    width: 600px;
+    background-color: white;
+}
+
+.title{
+    color: white;
+    background-color: lightseagreen;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.content{
+    color: white;
+    background-color: lightseagreen;
+    padding: 16px 8px;
+    margin-bottom: 8px;
+}
+
+.button_container{
+    text-align: center;
+    color: white;
+    background-color: lightseagreen;
+    padding: 8px;
+}
+
+button{
+    display: block;
+    background-color: white;
+    margin: 0 auto;
+    padding: 8px 24px;
+}
