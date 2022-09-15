@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/*--------------------------------Blue Box as sample of an image---------------------------*/
+
+.blue-box{
+    height: 140px;
+    width: 140px;
+    border: 5px #3882f6 solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+/*--------------------------------Hero Style---------------------------*/
+
+.hero{
+    background-color: #1f2937;
+    height: 400px;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+    .hero-container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .hero-main{
+        margin-top: 20px;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 8px;
+    }
+
+    .hero-image{
+        flex: 1;
+        height: 200px;
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hero-text{
+        flex: 1;
+    }
+    
+    .hero-secondary{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 18px;
+        color: #e5e7eb;
+    }
+    
+    .hero-maintext{
+        line-height: 40px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-weight: 800;
+        font-size: 48px;
+        color: #f9faf8;
+    }
+
+    .hero-button{
+        border-style: solid;
+        background-color: #3882f6;
+        border-radius: 8px;
+        color: #e5e7eb;
+        border-color: #3882f6;
+        padding: 5px 25px;
+    }
+    
+    .hero-header-logo{
+        font-size: 24px;
+        color: #f9faf8;
+        flex: 0 0 auto;
+    }
+
+/*--------------------------------Images Style---------------------------*/
+
+.images{
+    text-align: center;
+    height: 400px;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .image-images{
+        display: flex;
+        gap: 36px; 
+        justify-content: center;
+    }
+
+    .image-header{
+        margin-bottom: 40px;
+        color: #1f2937;
+        font-weight: 800;
+        font-size: 36px;
+    }
+
+    .image-container{
+        text-align: center;
+        width: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+/*--------------------------------Testimony Style---------------------------*/
+
+.testimony{
+    background-color: #e5e7eb;
+    height: 300px;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+    .testimony-container{
+        width: 600px;
+    }
+
+    .testimony-quote{
+        font-size: 25px;
+        color: #1f2937;
+    }
+
+
+/*--------------------------------Cta Style---------------------------*/
+
+.cta-container{
+    height: 300px;
+    flex: 1 0 auto;
+}
+
+    .cta{
+        display: flex;
+        background-color: #3882f6;
+        width: 100%;
+        padding: 30px;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cta-text{
+        color: #f9faf8;
+        width: 450px;
+    }
+    
+    .cta-title{
+        color: #f9faf8;
+        font-weight: 800;
+    }
+    
+    .cta-button{
+        color: #f9faf8;
+        border-color: #f9faf8;
+        background-color: #3882f6;
+        border-style: solid;
+        border-radius: 5px;
+        padding: 3px 20px;
+    }
+
+/*--------------------------------Footer Style---------------------------*/
+
+.footer{
+    color: #e5e7eb;
+    background-color: #1f2937;
+    height: 50px;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------------------Standard size for each section---------------------------*/
+
+.standard{
+    margin: 0 auto;
+    width: 800px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100%;
+}
+
+
+/*--------------------------------Utility---------------------------*/
+
+.centered{
+    text-align: center;
+}
+
+.spacing{
+    flex: 1 1 auto;
+}
